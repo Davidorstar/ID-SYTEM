@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SMART ID GENERATION SYSTEM</title>
+	<style>
+		 h1 {
+        color: white;
+      }
+		body {
+			background-color: #F2F2F2;
+			font-family: Arial, sans-serif;
+
+		}
+		h1 {
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.btn {
+			display: inline-block;
+			padding: 10px 20px;
+			font-size: 24px;
+			font-weight: bold;
+			color: #FFFFFF;
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 30px;
+			margin-right: 20px;
+		}
+		.btn:hover {
+			background-color: #3E8E41;
+		}
+		.logout {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			padding: 10px 20px;
+			font-size: 24px;
+			font-weight: bold;
+			color: #FFFFFF;
+			background-color: #FF5722;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.logout:hover {
+			background-color: #E64A19;
+		}
+		body {
+        background-image: url(hp2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+	</style>
+</head>
+<body>
+
+	<h1>SMART ID GENERATION SYSTEM</h1>
+	<div>
+		<a href="data2.html" class="btn">Apply ID</a>
+		<a href="replace.html" class="btn">Replace ID</a>
+	</div>
+	<button class="logout" onclick="logout()">Log Out</button>
+
+<script>
+function logout() {
+  // Perform logout logic here
+  // Redirect the user to the homepage.html file
+  window.location.href = 'homepage.html';
+}
+</script>
+
+</body>
+</html>

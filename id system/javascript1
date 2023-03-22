@@ -1,0 +1,15 @@
+<button id="submit-button" onclick="redirectToConfirmationForm()">Submit Application</button
+function redirectToConfirmationForm() {
+  // Assuming the confirmation form is located at "confirmation.html"
+  // You can replace this URL with the actual URL of the confirmation form
+  const confirmationFormUrl = "confirmation.html";
+
+  // Set a cookie to remember that the user has submitted an application
+  document.cookie = "application_submitted=true";
+
+  // Redirect the user to the confirmation form
+  window.location.href = confirmationFormUrl;
+
+  // Show a notification message to the user
+  alert("SMART ID generated successfully. You will receive feedback in 72hrs.");
+}
